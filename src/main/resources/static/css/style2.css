@@ -1,0 +1,39 @@
+table.table {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: 2px solid #636e72;
+    background-color: #dfe6e9;
+    margin: auto;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+    align-self: center;
+  }
+  table.table td, table.table th {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+  }
+  table.table tbody td {
+    font-size: 13px;
+    color: #dfe6e9;
+  }
+  table.table tr:nth-child(even) {
+    background: #dfe6e9;
+  }
+  table.table thead {
+    background: #636e72;
+    border-bottom: 3px solid #636e72;
+  }
+  table.table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #dfe6e9;
+    text-align: center;
+    border-left: 2px solid #4A4A4A;
+  }
+  table.table thead th:first-child {
+    border-left: none;
+  }
+  
+  table.table tfoot td {
+    font-size: 12px;
+  }

@@ -1,0 +1,97 @@
+html{
+    background: rgb(45, 52, 54);
+    background: linear-gradient(0deg, rgb(45, 52, 54) 1%, rgb(9, 132, 227) 95%);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+
+.menuStyle {
+    font-family: 'Segoe UI',Arial,sans-serif;
+    background-color: #2d3436;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 55px;
+    width: 100%;
+    margin: 0 auto;
+    border: 20px;
+
+}
+
+.menuStyle a {
+    float: left;
+    color: #0984e3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.menuStyle a:hover {
+    background-color: #0984e3;
+    color: #2d3436;
+}
+
+.menuStyle a.active {
+    background-color: #0984e3;
+    color: #2d3436;
+}
+
+
+.content{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+    padding: 10px;
+    margin-left:10% ;
+    margin-right:10% ;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.divTable{
+    display: table;
+    width: 80%;
+    margin-left:10% ;
+    margin-right:10% ;
+    margin-top: 20px;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableCell{
+    display: table-cell;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+input[type=submit]{
+    background-color: rgb(99, 110, 114);
+    border: 1px solid #0984e3;
+    color: #0984e3;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+img{
+    border: 1px solid wheat;
+    border-radius: 10px;
+}

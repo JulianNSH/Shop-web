@@ -1,0 +1,12 @@
+***************Development Log***************
+
+(Previous versions: - https://github.com/JulianNSH/Shop
+                    - https://github.com/JulianNSH/Shop-desktop)
+
+-------------------PHASE V-------------------
+                  (WEB)
+
+>>>5.1 - Was created and configured the project
+       - Was created a simple web design for each page
+            (which belongs to the entity)
+       - Was created connectivity between pages
