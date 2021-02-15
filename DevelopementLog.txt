@@ -10,3 +10,5 @@
        - Was created a simple web design for each page
             (which belongs to the entity)
        - Was created connectivity between pages
+
+>>>5.2 - Was added the database data display for each entity

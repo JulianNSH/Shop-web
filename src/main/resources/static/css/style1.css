@@ -21,7 +21,8 @@ html{
     width: 100%;
     margin: 0 auto;
     border: 20px;
-
+    display: flex;
+    justify-content: center;
 }
 
 .menuStyle a {
