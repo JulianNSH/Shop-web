@@ -12,3 +12,6 @@
        - Was created connectivity between pages
 
 >>>5.2 - Was added the database data display for each entity
+
+>>>5.3 - Was added Add, Update, Delete features for each entity
+       - Was added database dump

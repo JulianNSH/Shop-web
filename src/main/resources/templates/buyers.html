@@ -37,6 +37,49 @@
     </div>
 </div>
 
+<div class="divTable">
+    <div class="divTableRow">
+        <div class="divTableCell">
+            <h1 style="font-size: 20px;">Add</h1>
+            <form th:action="@{/addFormBuyers}" th:object="${buyersForm}"  method = "POST" align = center>
+                <br>       <input type="text" size="30" placeholder="ID" th:field="*{id}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Name" th:field="*{name}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Surname" th:field="*{surname}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Acquisitions" th:field="*{acquisitions}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Discount" th:field="*{discount}" /> <br>
+                <br>
+                <input type="submit" value="ADD" style="background-color: #55efc4; color: #2d3436; border-color: #55efc4">
+                <span th:utext="${message}"></span>
+            </form>
+        </div>
+
+        <div class="divTableCell">
+            <h1 style="font-size: 20px;">Update</h1>
+            <form  th:action="@{/updateFormBuyers}" th:object="${buyersForm}"  method = "POST" align = center>
+                <br>       <input type="text" size="30" placeholder="ID" th:field="*{id}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Name" th:field="*{name}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Surname" th:field="*{surname}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Acquisitions" th:field="*{acquisitions}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Discount" th:field="*{discount}" /> <br>
+                <br>
+                <input type="submit"  value="UPDATE" style="background-color: #fdcb6e; color: #2d3436; border-color: #fdcb6e">
+            </form>
+        </div>
+
+        <div class="divTableCell">
+            <h1 style="font-size: 20px;">Delete</h1>
+            <form  th:action="@{/deleteFormBuyers}" th:object="${buyersForm}"  method = "POST" align = center>
+                <br><br><br><br><br><br>
+                <input type="text" size="30" placeholder="ID" th:field="*{id}"> <br>
+                <br><br><br><br><br><br>
+                <input type="submit" name="submit" value="DELETE" style="background-color: #d63031; color: #2d3436; border-color: #d63031">
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
 </body>
 
 </html>

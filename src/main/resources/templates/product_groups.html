@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" th:href="@{/css/style1.css}">
     <link rel="stylesheet" type="text/css" th:href="@{/css/style2.css}">
 
-    <title>Sales</title>
+    <title>Product Groups</title>
 </head>
 <body>
 <div class="content" >
@@ -18,31 +18,30 @@
     </div>
 
     <div class="main">
-        <h1 class="title">Sales</h1>
+        <h1 class="title">Product Groups</h1>
         <table class="table" style ="width: 80%">
             <thead>
             <tr>
                 <th>ID</th>
-                <th>Product</th>
-                <th>Discount (%)</th>
+                <th>Product Group Name</th>
+                <th>Number of Units</th>
             </tr>
             </thead>
 
             <tbody>
-                <span th:utext="${salesData}"></span>
+            <span th:utext="${productGroupsData}"></span>
             </tbody>
         </table>
     </div>
 </div>
-
 <div class="divTable">
     <div class="divTableRow">
         <div class="divTableCell">
             <h1 style="font-size: 20px;">Add</h1>
-            <form th:action="@{/addFormSales}" th:object="${salesForm}"  method = "POST" align = center>
+            <form th:action="@{/addFormPG}" th:object="${productGroupsForm}"  method = "POST" align = center>
                 <br>       <input type="text" size="30" placeholder="ID" th:field="*{id}" /> <br>
-                <br>       <input type="text" size="30" placeholder="Name" th:field="*{idProduct}" /> <br>
-                <br>       <input type="text" size="30" placeholder="Discount" th:field="*{discount}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Name Product" th:field="*{groupName}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Price" th:field="*{nrOfUnits}" /> <br>
                 <br>
                 <input type="submit" value="ADD" style="background-color: #55efc4; color: #2d3436; border-color: #55efc4">
                 <span th:utext="${message}"></span>
@@ -51,10 +50,10 @@
 
         <div class="divTableCell">
             <h1 style="font-size: 20px;">Update</h1>
-            <form  th:action="@{/updateFormSales}" th:object="${salesForm}"  method = "POST" align = center>
+            <form  th:action="@{/updateFormPG}" th:object="${productGroupsForm}"  method = "POST" align = center>
                 <br>       <input type="text" size="30" placeholder="ID" th:field="*{id}" /> <br>
-                <br>       <input type="text" size="30" placeholder="Name" th:field="*{idProduct}" /> <br>
-                <br>       <input type="text" size="30" placeholder="Discount" th:field="*{discount}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Name Group" th:field="*{groupName}" /> <br>
+                <br>       <input type="text" size="30" placeholder="Price" th:field="*{nrOfUnits}" /> <br>
                 <br>
                 <input type="submit"  value="UPDATE" style="background-color: #fdcb6e; color: #2d3436; border-color: #fdcb6e">
             </form>
@@ -62,10 +61,10 @@
 
         <div class="divTableCell">
             <h1 style="font-size: 20px;">Delete</h1>
-            <form  th:action="@{/deleteFormSales}" th:object="${salesForm}"  method = "POST" align = center>
-                <br><br><br><br>
+            <form  th:action="@{/deleteFormPG}" th:object="${productGroupsForm}"  method = "POST" align = center>
+                <br><br><br>
                 <input type="text" size="30" placeholder="ID" th:field="*{id}"> <br>
-                <br><br><br><br>
+                <br><br><br>
                 <input type="submit" name="submit" value="DELETE" style="background-color: #d63031; color: #2d3436; border-color: #d63031">
             </form>
 
@@ -73,7 +72,6 @@
     </div>
 
 </div>
-
 </body>
 
 </html>
