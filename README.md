@@ -23,20 +23,20 @@ Features
 ------
 - Application first page
 
-![alt text](https://github.com/JulianNSH/Shop-desktop/blob/master/screenshots/screen1.png?raw=true "Main")
+![alt text](https://github.com/JulianNSH/Shop-web/blob/master/screenshots/screen1.png?raw=true "Main")
 
 - Entity page that shows data from Database and and ensures adding, updating and deleting data.
 
-![alt text](https://github.com/JulianNSH/Shop-desktop/blob/master/screenshots/screen2.png?raw=true "Page")
+![alt text](https://github.com/JulianNSH/Shop-web/blob/master/screenshots/screen2.png?raw=true "Page")
 
 - Adding Data
 
-![alt text](https://github.com/JulianNSH/Shop-desktop/blob/master/screenshots/screen3.png?raw=true "Add")
+![alt text](https://github.com/JulianNSH/Shop-web/blob/master/screenshots/screen3.png?raw=true "Add")
 
 - Updating Data
 
-![alt text](https://github.com/JulianNSH/Shop-desktop/blob/master/screenshots/screen4.png?raw=true "Update")
+![alt text](https://github.com/JulianNSH/Shop-web/blob/master/screenshots/screen4.png?raw=true "Update")
 
 - Deleting Data
 
-![alt text](https://github.com/JulianNSH/Shop-desktop/blob/master/screenshots/screen5.png?raw=true "Delete")
+![alt text](https://github.com/JulianNSH/Shop-web/blob/master/screenshots/screen5.png?raw=true "Delete")
