@@ -12,7 +12,7 @@ As the desktop version this is a continuation of the console application ([GitHu
 
 Instruments
 ------
-* Java version 12.0.2
+* JDK 1.8
 * Build: Maven 4.0.0
 * Framework: Spring Boot
 * Templating: Thymeleaf (HTML+CSS)
